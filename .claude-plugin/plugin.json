@@ -1,0 +1,9 @@
+{
+  "name": "burmese-language-skills",
+  "version": "0.1.0",
+  "description": "Burmese language skills for humanization, grammar checking, style consistency, and text normalization.",
+  "author": {
+    "name": "Burmese Language Skills Contributors"
+  },
+  "license": "MIT"
+}
