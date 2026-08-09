@@ -1,0 +1,6 @@
+interface:
+  display_name: "Burmese Humanizer"
+  short_description: "AI ဆန်သော မြန်မာစာကို သဘာဝကျအောင် ပြင်ပေးသည်"
+  default_prompt: "Use $myanmar-humanizer to rewrite this Burmese text naturally while preserving its meaning and tone."
+policy:
+  allow_implicit_invocation: true
