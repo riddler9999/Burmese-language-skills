@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 — Initial MVP Foundation
 
 - Added research source registry and source notes
 - Added Burmese spelling and grammar research sources
