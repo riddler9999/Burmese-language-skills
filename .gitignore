@@ -1,2 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Local research data
+data/
+*.local.md
+
+# Python cache
 __pycache__/
 *.py[cod]
