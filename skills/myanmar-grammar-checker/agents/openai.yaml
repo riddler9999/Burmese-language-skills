@@ -1,0 +1,6 @@
+interface:
+  display_name: "Burmese Grammar Checker"
+  short_description: "မြန်မာစာ သတ်ပုံ၊ သဒ္ဒါနှင့် punctuation စစ်ပေးသည်"
+  default_prompt: "Use $myanmar-grammar-checker to check this Burmese text and explain certain errors separately from suggestions."
+policy:
+  allow_implicit_invocation: true
