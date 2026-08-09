@@ -32,7 +32,7 @@ Research foundation၊ myanmar-humanizer MVP နှင့် myanmar-grammar-che
 
 ## Project Status
 
-Research foundation၊ Humanizer MVP scaffold နှင့် Grammar Checker MVP scaffold ပြီးစီးနေသည်။ Style Guide နှင့် Text Normalizer များကို နောက်အဆင့်များတွင် တည်ဆောက်မည်။
+Research foundation၊ Humanizer MVP၊ Grammar Checker MVP နှင့် Style Guide MVP scaffold များကို တည်ဆောက်ထားသည်။ Text Normalizer ကို နောက်အဆင့်တွင် တည်ဆောက်မည်။
 
 ## License
 
