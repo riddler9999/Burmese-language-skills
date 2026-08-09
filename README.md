@@ -13,7 +13,7 @@
 
 ## Current Progress
 
-Research foundation နှင့် myanmar-humanizer MVP workflow ကို စတင်တည်ဆောက်ထားသည်။ လက်ရှိ humanizer rules များသည် Burmese-specific published AI-writing research မလုံလောက်သေးသဖြင့် empirical heuristics အဖြစ်သာ သတ်မှတ်ထားသည်။
+Research foundation၊ myanmar-humanizer MVP နှင့် myanmar-grammar-checker MVP workflow များကို တည်ဆောက်ထားသည်။ Humanizer rules များသည် Burmese-specific published AI-writing research မလုံလောက်သေးသဖြင့် empirical heuristics အဖြစ်သာ သတ်မှတ်ထားသည်။ Grammar rules များတွင် spelling, grammar, spacing, punctuation နှင့် protected spans ကို ခွဲခြားထားသည်။
 
 ## Repository Structure
 
@@ -32,7 +32,7 @@ Research foundation နှင့် myanmar-humanizer MVP workflow ကို စ
 
 ## Project Status
 
-Research foundation နှင့် Humanizer MVP scaffold ပြီးစီးနေသည်။ Grammar Checker, Style Guide နှင့် Text Normalizer များကို နောက်အဆင့်များတွင် တည်ဆောက်မည်။
+Research foundation၊ Humanizer MVP scaffold နှင့် Grammar Checker MVP scaffold ပြီးစီးနေသည်။ Style Guide နှင့် Text Normalizer များကို နောက်အဆင့်များတွင် တည်ဆောက်မည်။
 
 ## License
 
