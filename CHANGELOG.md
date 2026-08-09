@@ -9,6 +9,7 @@
 - Added humanizer MVP workflow, heuristic patterns, output format, and example
 - Added grammar checker MVP workflow, rules, output format, example, and 20 test cases
 - Added style guide MVP workflow, genre matrix, output format, example, and 20 test cases
+- Added text normalizer MVP workflow, normalization rules, output format, example, and 20 test cases
 - Added implementation plan for the next milestones
 
 ## Initial Scaffold
