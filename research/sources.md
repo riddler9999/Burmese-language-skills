@@ -63,3 +63,13 @@ Orthography corpus, spell-checker research, and spoken-particle research တိ�
 ## Style Evidence Boundary
 
 Localization guide များသည် project-specific voice ကို ကိုယ်စားပြုနိုင်သော်လည်း မြန်မာဘာသာအားလုံးအတွက် universal rule မဟုတ်ပါ။ User/brand glossary နှင့် target channel ကို အမြဲဦးစားပေးမည်။
+
+## Tier F — Encoding and Normalization Tools
+
+- [Google Myanmar Tools](https://github.com/google/myanmar-tools) — Zawgyi-One detection and conversion အတွက် open-source reference ဖြစ်သည်။ Detector probability ကို certainty အဖြစ် မယူဆဘဲ threshold နှင့် mixed-text handling လိုအပ်သည်။
+- [Unicode Myanmar FAQ](https://www.unicode.org/faq/myanmar.html) — Zawgyi နှင့် Unicode သည် encoding/font model မတူကြောင်း၊ တချို့ string များသည် font နှစ်မျိုးတွင် တူမြင်နိုင်ကြောင်း ရှင်းပြထားသည်။
+- [Unicode CLDR Myanmar transformations](https://www.unicode.org/reports/tr35/tr35-73/tr35.html) — Zawgyi identifier နှင့် transformation metadata အတွက် background reference ဖြစ်သည်။
+
+## Normalization Evidence Boundary
+
+Detector probability, visual appearance နှင့် Unicode code-point validity တို့ကို သီးခြားစဉ်းစားရမည်။ Low-confidence သို့မဟုတ် mixed-encoding input ကို အလိုအလျောက် conversion မလုပ်ဘဲ user confirmation သို့ route လုပ်မည်။
