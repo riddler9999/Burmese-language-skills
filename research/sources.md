@@ -43,3 +43,13 @@ Source မတူညီမှုရှိပါက အောက်ပါအစီ
 - Publicly accessible, comprehensive Burmese spelling/grammar authority တစ်ခုတည်း မတွေ့ရှိသေးပါ။
 - AI-generated Burmese humanizer pattern များအတွက် Burmese-specific published study မလုံလောက်သေးပါ။
 - Social media၊ sales နှင့် business writing အတွက် native-reviewed corpus ကို ကိုယ်ပိုင်တည်ဆောက်ရန် လိုအပ်သည်။
+
+## Tier D — Spelling and Grammar Resources
+
+- [Myanmar Spell Checker research](https://www.ijsr.net/getabstract.php?paperid=IJSR13010175) — Typographic, sequence, phonetic, and context spelling errors အတွက် corpus-based approach ကို တင်ပြထားသည်။ Publication quality ကို independent validation ပြန်လုပ်ရန်လိုသည်။
+- [myX Myanmar Orthography Corpus](https://huggingface.co/datasets/DatarrX/myX-myanmar-orthography-corpus) — Burmese orthography noisy-to-clean pairs 4,800 rows ပါဝင်သည့် CC BY-SA 4.0 dataset ဖြစ်သည်။ Spelling correction evidence အဖြစ် အသုံးပြုမည်၊ grammar gold standard အဖြစ် မသုံးရ။
+- [A Study on Grammatical Use of Particles in Myanmar Spoken Discourse](https://www.mufl.edu.mm/research-journal.html) — Spoken Burmese particle usage ကို Myanmar Grammar နှင့် conversational data အပေါ် အခြေခံလေ့လာထားသည်။ Spoken grammar နှင့် formal written grammar ကို ခွဲခြားရန် အသုံးပြုမည်။
+
+## Grammar Evidence Boundary
+
+Orthography corpus, spell-checker research, and spoken-particle research တို့သည် အခန်းကဏ္ဍမတူကြသည်။ Dataset frequency သို့မဟုတ် model suggestion တစ်ခုတည်းဖြင့် စံသဒ္ဒါ rule မသတ်မှတ်ရ။
