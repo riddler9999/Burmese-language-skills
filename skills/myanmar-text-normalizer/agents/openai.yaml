@@ -1,0 +1,6 @@
+interface:
+  display_name: "Burmese Text Normalizer"
+  short_description: "Unicode/Zawgyi နှင့် text encoding ကိုစစ်ပေးသည်"
+  default_prompt: "Use $myanmar-text-normalizer to inspect this Burmese text for Unicode, Zawgyi, mixed encoding, and invisible characters."
+policy:
+  allow_implicit_invocation: true
