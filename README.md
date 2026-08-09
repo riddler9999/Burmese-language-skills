@@ -19,7 +19,7 @@ Research foundation၊ myanmar-humanizer MVP နှင့် myanmar-grammar-che
 
 - skills/ — Agent Skills များ
 - research/ — Source, taxonomy, annotation နှင့် evaluation planning
-- tests/ — Skill တစ်ခုချင်းစီအတွက် evaluation cases
+- tests/ — Skill တစ်ခုချင်းစီအတွက် evaluation cases နှင့် cross-skill integration fixtures
 - docs/superpowers/plans/ — Implementation plans
 
 ## Design Principles
@@ -32,7 +32,7 @@ Research foundation၊ myanmar-humanizer MVP နှင့် myanmar-grammar-che
 
 ## Project Status
 
-Research foundation နှင့် Humanizer, Grammar Checker, Style Guide, Text Normalizer MVP scaffold များကို တည်ဆောက်ထားသည်။
+Version 0.1.0 အဖြစ် Research foundation နှင့် Humanizer, Grammar Checker, Style Guide, Text Normalizer MVP scaffold များကို တည်ဆောက်ထားသည်။
 
 ## License
 
