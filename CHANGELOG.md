@@ -3,9 +3,11 @@
 ## Unreleased
 
 - Added research source registry and source notes
+- Added Burmese spelling and grammar research sources
 - Added Burmese error/style taxonomy and annotation schema
 - Added evaluation plan and 20 humanizer evaluation cases
-- Added myanmar-humanizer MVP workflow, heuristic patterns, output format, and example
+- Added humanizer MVP workflow, heuristic patterns, output format, and example
+- Added grammar checker MVP workflow, rules, output format, example, and 20 test cases
 - Added implementation plan for the next milestones
 
 ## Initial Scaffold
