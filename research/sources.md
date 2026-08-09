@@ -53,3 +53,13 @@ Source မတူညီမှုရှိပါက အောက်ပါအစီ
 ## Grammar Evidence Boundary
 
 Orthography corpus, spell-checker research, and spoken-particle research တို့သည် အခန်းကဏ္ဍမတူကြသည်။ Dataset frequency သို့မဟုတ် model suggestion တစ်ခုတည်းဖြင့် စံသဒ္ဒါ rule မသတ်မှတ်ရ။
+
+## Tier E — Localization and Style References
+
+- [Microsoft Burmese Localization Style Guide](https://download.microsoft.com/download/055e0e21-a0d7-482c-aeea-8b0190008c9a/mya-MMR-StyleGuide.pdf) — Burmese localization အတွက် voice, terminology, grammar structures နှင့် product language consistency ကို လေ့လာရန် အသုံးပြုမည်။
+- [Khan Academy Burmese Helpful Guidelines](https://www.khanacademyburmese.org/get-started/helpful-guidelines) — concise writing, whole-sentence translation, natural Burmese clause order, correct spelling နှင့် technical terms များကို အသုံးပြုပုံအတွက် practical reference ဖြစ်သည်။
+- [Burmese Literary Style overview](https://books.google.com/books/about/Burmese_Myanmar.html?id=JJHgDwAAQBAJ) — colloquial နှင့် literary Burmese style ကွာခြားမှုကို စဉ်းစားရန် background reference ဖြစ်သည်။
+
+## Style Evidence Boundary
+
+Localization guide များသည် project-specific voice ကို ကိုယ်စားပြုနိုင်သော်လည်း မြန်မာဘာသာအားလုံးအတွက် universal rule မဟုတ်ပါ။ User/brand glossary နှင့် target channel ကို အမြဲဦးစားပေးမည်။
