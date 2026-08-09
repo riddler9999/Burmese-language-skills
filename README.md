@@ -13,13 +13,14 @@
 
 ## Current Progress
 
-Research foundation၊ myanmar-humanizer MVP နှင့် myanmar-grammar-checker MVP workflow များကို တည်ဆောက်ထားသည်။ Humanizer rules များသည် Burmese-specific published AI-writing research မလုံလောက်သေးသဖြင့် empirical heuristics အဖြစ်သာ သတ်မှတ်ထားသည်။ Grammar rules များတွင် spelling, grammar, spacing, punctuation နှင့် protected spans ကို ခွဲခြားထားသည်။
+Research foundation၊ Skill MVP workflows လေးခုနှင့် machine-readable benchmark suite ကို တည်ဆောက်ထားသည်။ Benchmark တွင် Skill တစ်ခုစီအတွက် concrete cases ၂၀ ခုနှင့် cross-skill integration cases ၅ ခု၊ စုစုပေါင်း ၈၅ ခု ပါဝင်သည်။ Humanizer rules များသည် Burmese-specific published AI-writing research မလုံလောက်သေးသဖြင့် empirical heuristics အဖြစ်သာ သတ်မှတ်ထားသည်။
 
 ## Repository Structure
 
 - skills/ — Agent Skills များ
 - research/ — Source, taxonomy, annotation နှင့် evaluation planning
-- tests/ — Skill တစ်ခုချင်းစီအတွက် evaluation cases နှင့် cross-skill integration fixtures
+- tests/ — Skill တစ်ခုချင်းစီအတွက် evaluation cases၊ JSONL benchmark နှင့် cross-skill integration fixtures
+- scripts/ — Benchmark fixture validator နှင့် structured-output evaluator
 - docs/superpowers/plans/ — Implementation plans
 
 ## Design Principles
@@ -32,7 +33,7 @@ Research foundation၊ myanmar-humanizer MVP နှင့် myanmar-grammar-che
 
 ## Project Status
 
-Version 0.1.0 အဖြစ် Research foundation နှင့် Humanizer, Grammar Checker, Style Guide, Text Normalizer MVP scaffold များကို တည်ဆောက်ထားသည်။
+Version 0.2.0 အဖြစ် Research foundation၊ Humanizer, Grammar Checker, Style Guide, Text Normalizer MVP များနှင့် ၈၅-case benchmark suite ကို တည်ဆောက်ထားသည်။
 
 ## License
 

@@ -12,4 +12,6 @@
 - [ ] Reference သို့မဟုတ် Example ထည့်ထားသည်
 - [ ] Confidence level ခွဲထားသည်
 - [ ] Test case ထည့်ထားသည်
+- [ ] `scripts/validate_benchmark.py` ဖြင့် fixture validation အောင်မြင်သည်
+- [ ] Protected text နှင့် forbidden additions ကို machine-readable fields ဖြင့် သတ်မှတ်ထားသည်
 - [ ] Unicode စာသားဖြစ်ကြောင်း စစ်ဆေးထားသည်

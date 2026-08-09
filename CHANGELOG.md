@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0 — Machine-readable Benchmark
+
+- Added 85 concrete JSONL benchmark fixtures across four Skills and integration routing
+- Added deterministic fixture validation with duplicate, schema, routing, and preservation checks
+- Added structured-output evaluation for decisions, labels, protected tokens, and forbidden additions
+- Added 13 regression tests following a red-green TDD cycle
+- Fixed the Humanizer example so it no longer adds benefits absent from the source text
+- Documented benchmark commands and native-review limitations
+
 ## 0.1.0 — Initial MVP Foundation
 
 - Added research source registry and source notes
