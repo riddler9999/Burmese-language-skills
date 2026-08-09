@@ -5,14 +5,31 @@ description: မြန်မာစာ Unicode/Zawgyi encoding၊ character order
 
 # myanmar-text-normalizer
 
-## Planned Workflow
+## Scope
 
-1. Input encoding နှင့် character sequence ကို စစ်ပါ။
-2. Zawgyi-like text ရှိ/မရှိ ခွဲခြားပါ။
-3. Unsafe normalization မလုပ်မီ မူရင်း copy ကို ထိန်းသိမ်းပါ။
-4. Normalized output နှင့် ပြောင်းလဲချက်အနှစ်ချုပ်ကို ပြပါ။
-5. မသေချာသောစာသားကို အလိုအလျောက်မပြင်ဘဲ သတိပေးပါ။
+ဤ Skill သည် မြန်မာစာ၏ encoding နှင့် text hygiene ကို စစ်ဆေးသည်။ Grammar, spelling, tone နှင့် style correction မလုပ်ဘဲ သက်ဆိုင်ရာ Skill သို့ route လုပ်ရမည်။
 
-## Current Status
+## Workflow
 
-ဤ Skill သည် scaffold အဆင့်တွင်ရှိသည်။ အသေးစိတ် rules, references နှင့် examples များကို research ပြီးနောက် ထည့်သွင်းမည်။
+1. Input ကို မပြင်မီ original text ကို ထိန်းသိမ်းပါ။
+2. Unicode, Zawgyi-like, mixed, သို့မဟုတ် unknown ဟု encoding status ခွဲပါ။
+3. Affected spans၊ detector confidence၊ character order နှင့် invisible characters ကို စစ်ပါ။
+4. User က conversion တောင်းဆိုထားခြင်း သို့မဟုတ် high-confidence policy ရှိမှသာ conversion ပြုလုပ်ပါ။
+5. Low-confidence/mixed input တွင် automatic conversion မလုပ်ဘဲ သတိပေးပါ။
+6. Normalized output ကို ပြီးနောက် names, brands, numbers, URLs, IDs နှင့် meaning preservation ကို ပြန်စစ်ပါ။
+7. Grammar/style issue တွေ့လျှင် Grammar Checker သို့မဟုတ် Style Guide သို့ route လုပ်ပါ။
+
+## Guardrails
+
+- Zawgyi/Unicode detection score ကို absolute proof မယူဆရ။
+- Mixed encoding ကို အလိုအလျောက် အကုန်ပြောင်းမလုပ်ရ။
+- မြန်မာစာ word boundary မသိဘဲ space ထည့်/ဖယ် မလုပ်ရ။
+- Brand names, product codes, URLs, emails, prices, dates နှင့် user-protected text မပြင်ရ။
+- Emoji၊ slang နှင့် intentional punctuation များကို အလိုအလျောက် မဖျက်ရ။
+- Normalizer သည် encoding ကိုသာ စစ်ပြီး စာသားအဓိပ္ပာယ်ကို မပြန်ရေးရ။
+
+## References
+
+- [Normalization rules](references/normalization-rules.md)
+- [Output format](references/output-format.md)
+- [Before/after example](examples/before-after-01.md)
