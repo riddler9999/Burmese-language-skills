@@ -9,3 +9,7 @@ Thumbs.db
 # Local research data
 data/
 *.local.md
+
+# Python cache
+__pycache__/
+*.py[cod]
